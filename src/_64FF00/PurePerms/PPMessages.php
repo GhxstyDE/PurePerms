@@ -25,6 +25,7 @@ class PPMessages{
 	private Config $messages;
 
 	private array $langList = [];
+	private PurePerms $plugin;
 
 	/**
 	 * @param PurePerms $plugin
